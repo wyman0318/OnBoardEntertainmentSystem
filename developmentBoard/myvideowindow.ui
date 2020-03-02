@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>myVideoWindow</class>
+ <widget class="QWidget" name="myVideoWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>80</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qradialgradient(spread:pad, cx:0.506, cy:0.505682, radius:1.062, fx:0.511, fy:0.511682, stop:0 rgba(50, 168, 212, 255), stop:1 rgba(255, 255, 255, 255));</string>
+  </property>
+  <widget class="QPushButton" name="ssBtn">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.528, y1:0.528, x2:1, y2:0, stop:0.202247 rgba(14, 104, 159, 255), stop:1 rgba(18, 210, 255, 255));</string>
+   </property>
+   <property name="text">
+    <string>播放/停止</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="prevBtn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.528, y1:0.528, x2:1, y2:0, stop:0.202247 rgba(14, 104, 159, 255), stop:1 rgba(18, 210, 255, 255));</string>
+   </property>
+   <property name="text">
+    <string>上一个</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nextBtn">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>20</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.528, y1:0.528, x2:1, y2:0, stop:0.202247 rgba(14, 104, 159, 255), stop:1 rgba(18, 210, 255, 255));</string>
+   </property>
+   <property name="text">
+    <string>下一个</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="killBtn">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>20</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.528, y1:0.528, x2:1, y2:0, stop:0.202247 rgba(14, 104, 159, 255), stop:1 rgba(18, 210, 255, 255));</string>
+   </property>
+   <property name="text">
+    <string>中止</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="retBtn">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>20</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.528, y1:0.528, x2:1, y2:0, stop:0.202247 rgba(14, 104, 159, 255), stop:1 rgba(18, 210, 255, 255));</string>
+   </property>
+   <property name="text">
+    <string>返回菜单</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

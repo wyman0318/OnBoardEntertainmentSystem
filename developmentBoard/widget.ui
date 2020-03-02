@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>256</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.528, y1:0.528, x2:1, y2:0, stop:0.202247 rgba(14, 104, 159, 255), stop:1 rgba(18, 210, 255, 255));</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>50</y>
+     <width>411</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="go_Btn">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>340</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.506, cy:0.505682, radius:1.062, fx:0.511, fy:0.511682, stop:0 rgba(50, 168, 212, 255), stop:1 rgba(255, 255, 255, 255));
+border-color: rgb(130, 255, 237);</string>
+   </property>
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="prev">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>340</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.506, cy:0.505682, radius:1.062, fx:0.511, fy:0.511682, stop:0 rgba(50, 168, 212, 255), stop:1 rgba(255, 255, 255, 255));
+border-color: rgb(130, 255, 237);</string>
+   </property>
+   <property name="text">
+    <string>上一首</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>340</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.506, cy:0.505682, radius:1.062, fx:0.511, fy:0.511682, stop:0 rgba(50, 168, 212, 255), stop:1 rgba(255, 255, 255, 255));
+border-color: rgb(130, 255, 237);</string>
+   </property>
+   <property name="text">
+    <string>下一首</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>17</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>正在播放</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cutMusic">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>251</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.506, cy:0.505682, radius:1.062, fx:0.511, fy:0.511682, stop:0 rgba(50, 168, 212, 255), stop:1 rgba(255, 255, 255, 255));
+border-color: rgb(130, 255, 237);</string>
+   </property>
+   <property name="text">
+    <string>列表选择歌曲</string>
+   </property>
+  </widget>
+  <widget class="QSlider" name="vol_ctl">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>150</y>
+     <width>16</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>100</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>音量(切歌时生效)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="backLb">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="res.qrc">:/image/music.jfif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnBtn">
+   <property name="geometry">
+    <rect>
+     <x>679</x>
+     <y>410</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.506, cy:0.505682, radius:1.062, fx:0.511, fy:0.511682, stop:0 rgba(50, 168, 212, 255), stop:1 rgba(255, 255, 255, 255));
+border-color: rgb(130, 255, 237);</string>
+   </property>
+   <property name="text">
+    <string>返回菜单</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="musicImage">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>90</y>
+     <width>381</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>backLb</zorder>
+  <zorder>listWidget</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>go_Btn</zorder>
+  <zorder>prev</zorder>
+  <zorder>next</zorder>
+  <zorder>label</zorder>
+  <zorder>cutMusic</zorder>
+  <zorder>vol_ctl</zorder>
+  <zorder>label_5</zorder>
+  <zorder>returnBtn</zorder>
+  <zorder>musicImage</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
